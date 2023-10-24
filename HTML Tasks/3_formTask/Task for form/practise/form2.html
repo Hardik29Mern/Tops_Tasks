@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form action="submit">
+        <label for="Name1">Name :</label><br>
+        <input type="text" name="Name1" id="Name1">
+        <br><br>
+
+        <label for="emailid">EmailId :</label><br>
+        <input type="email" name="emailid" id="emailid">
+        <br><br>
+
+        <label for="Phone">Phone No :</label><br>
+        <input type="tel" name="Phone" id="Phone">
+        <br><br>
+
+        <label for="fileupload">Resume </label><br> 
+        <input type="file" name="fileupload" id="fileupload">
+        <br><br>
+
+        <label for="counter">Experience (in Years):</label><br>
+        <input type="number" name="counter " id="counter" min="0" max="50">
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <input type="checkbox" name="Html" id="Html"><br>
+            <label for="Html">Html</label><br><br>
+
+            <input type="checkbox" name="css" id="css"><br>
+            <label for="css">CSS</label><br><br>
+
+            <input type="checkbox" name="js" id="js"><br>
+            <label for="js">JAVASCRIPT</label><br>
+        </fieldset>
+
+        <label for="EducationType">Highest Education</label><br>
+        <select name="EducationType" id="EducationType">
+            <option value="High School">High School</option>
+            <option value="Associate degree">Associate degree</option>
+            <option value="Bachelor's degree">Bachelor's degree</option>
+            <option value="Master's degree">Master's degree</option>
+            <option value="PHD">PHD</option>
+        </select>
+
+        <!-- radio button ma koi pn ek check karvu hoy to input ma radio nad name ma kai pn apvu jaruri che 
+        and label no for jo radio to input id ma radio  pn same name hovathi j conect thse   -->
+        <fieldset>
+            <legend>Availablity:</legend>
+
+            <label for="radio1">Full-Time</label>
+            <input type="radio" name="radio" id="radio1">
+            <br>
+            <label for="radio2">Part-Time</label>
+            <input type="radio" name="radio" id="radio2">
+        </fieldset>
+        <br>
+        <label for="textarea1">Additional comments</label><br>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="2"></textarea>
+        <br>
+        <input type="submit" value="submit Application">
+
+        
+    </form>
+</body>
+</html>

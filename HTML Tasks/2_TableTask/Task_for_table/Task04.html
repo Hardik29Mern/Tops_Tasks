@@ -3,30 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task04</title>
+    <title>Nested Table task04</title>
 </head>
 <body>
-    <table border="1" cellspacing="4" cellpadding-="4" >
-        <tr>
-            <th rowspan="3" colspan="2" >CI</th>
-            <th rowspan="3"  >All <br>Genders</th>
+    <h1><center>Nested Table</center></h1>
+    <center>
+    <table border="1"  cellpadding-="10px" >
+        <tr align="center">
+            <th rowspan="2" colspan="2" >CI</th>
+            <th rowspan="2"  >All <br>Genders</th>
             <th colspan="2">By Gender</th>
         </tr>
-        <tr>
-            <th>Males</th>
-            <th>Females</th>
+        <tr align="center">
+            <th>
+                <table border="1">
+                    <tr align="center">
+                        <th>Males</th>
+                        <th>Females</th>
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>9215604</td>
+                        <td>4512358</td>
+                    </tr>
+                </table>
+            </th>
+            
         </tr>
-        <tr>
-            <td>9215604</td>
-            <td>4512358</td>
-        </tr>
-        <tr>
+        <tr align="center">
             <td><strong>Rural</strong></td>
             <td>6521458</td>
             <td>4215389</td>
             <td colspan="2" align="center" > 4152348</td>
         </tr>
-
     </table>
+</center>
 </body>
 </html>

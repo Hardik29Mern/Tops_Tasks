@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical of Important Tags in HTML</title>
+
+    <style>
+      section {
+        border: 2px solid pink;
+        padding: 15px;
+        margin: 10px;
+      }
+
+      .text {
+        color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Example of division &lt;div&gt; use for wrapping the data.</h3>
+
+    <div class="box" style="background-color: red; height: 100px; width: 100px">
+      Red Box
+    </div>
+
+    <div
+      class="box"
+      style="background-color: green; height: 100px; width: 100px"
+    >
+      Green Box
+    </div>
+
+    <div
+      class="box"
+      style="background-color: blue; height: 100px; width: 100px"
+    >
+      Blue Box
+    </div>
+
+    <div
+      class="box"
+      id="contactus"
+      style="background-color: orange; height: 100px; width: 100px"
+    >
+      Yellow Box
+    </div>
+
+    <div
+      class="box"
+      style="background-color: purple; height: 100px; width: 100px"
+    >
+      Purple Box
+    </div>
+
+    <h3>Example of section &lt;section&gt; use for wrapping the divs.</h3>
+
+    <h2>Indian Leader</h2>
+
+    <section>
+      <h3>Mahatma Gandhi</h3>
+
+      <p>
+        Mahata gandhi was born and raised in a hindu Family in coastal gujarat gandhi trained in the law at the inner Temple , london and was called o the var atage 22 in june 1891.
+      </p>
+    </section>
+
+    <section>
+      <h3>jawaharlal Nehru</h3>
+
+      <p>
+        the son of motilalNehru a prominent lawyer and indian nationalist jawaharlal Nehru was educatedin england at Harrow school and trinity collage cambridge.
+      </p>
+    </section>
+
+    <h4>
+      Like this Example we can set same property for same content by span tage
+      with class, It is usally use in CSS
+    </h4>
+
+    <p>
+      Lorem ipsum dolor sit amet <span class="text"> consectetur </span>,
+      adipisicing elit. Fugit, reiciendis.
+    </p>
+
+    <p>
+      Lorem, ipsum dolor sit amet
+      <span class="text"> consectetur </span> adipisicing elit. Veniam, enim.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet
+      <span class="text"> consectetur </span> adipisicing elit. Perspiciatis,
+      sequi!
+    </p>
+
+    <h3>Example of Lable tag</h3>
+
+    <form>
+      <label for="student"> Student </label>
+
+      <input
+        type="radio"
+        name="Occupation"
+        id="student"
+        value="student"
+      /><br />
+
+      <label for="business"> Business </label>
+
+      <input
+        type="radio"
+        name="Occupation"
+        id="business"
+        value="business"
+      /><br />
+
+      <label for="other"> Other </label>
+
+      <input type="radio" name="Occupation" id="other" value="other" />
+    </form>
+  </body>
+</html>

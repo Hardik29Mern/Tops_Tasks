@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical of Path Absolute vs Relative in HTML</title>
+  </head>
+
+  <body>
+    <h2>Absolute</h2>
+    <p>Exact</p>
+    <p>
+      The absolute file path is a full URL (address) of the file path to access
+      an internet file. For example,
+    </p>
+    <p>absolute path means ke je direct web pr thi url copy kri ne path apvu</p>
+    <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" />
+
+    <p>file:///C:/xampp/htdocs/FrontEnd/23Sept_TTS_9/HTML/images/bg.jpg</p>
+
+    <p>C:\xampp\htdocs\FrontEnd\23Sept_TTS_9\HTML\images</p>
+    <h2>Relative</h2>
+    <p>Executed file and loaded files will be Related with each other</p>
+    <p>
+      The relative file path describes the path of the file relative to the
+      location of the current web page. For example,
+    </p>
+    <p>images/filename.extension</p>
+    <hr>
+    <h3>Example of Relative path</h3>
+
+    <p>Example-1.Images folder in the current folder itself</p>
+
+    <h4>
+      The file source is like this &RightArrow; &lt;img src="Images/Sample.jpg"
+      alt=""&gt;
+    </h4>
+
+    <img src="Images/Sample.jpg" alt="" />
+
+    <p>Example-2.Same folder as the current web-page file</p>
+
+    <h4>
+      The file source is like this &RightArrow; &lt;img src="Sample2.jpg"
+      alt=""&gt;
+    </h4>
+
+    <img src="Sample2.jpg" alt="" />
+
+    <p>Example-3.Images folder two level up the current web-page’s folder</p>
+
+    <h4>
+      The file source is like this &RightArrow; &lt;img src="../../Sample3.jpg"
+      alt=""&gt;
+    </h4>
+
+    <img src="../Images/Sample3.jpg" alt="" />
+
+    <h3>2.Example of Absolute</h3>
+
+    <p>The full URL of the file, that is to be accessed, is mentioned.</p>
+
+    <h4>
+      The file source is like this &RightArrow; &lt;img
+      src="https://cache.desktopnexus.com/thumbseg/1811/1811904-bigthumbnail.jpg"
+      alt=""&gt;
+    </h4>
+
+    <img
+      src="https://cache.desktopnexus.com/thumbseg/1811/1811904-bigthumbnail.jpg"
+      alt=""
+    />
+  </body>
+</html>
